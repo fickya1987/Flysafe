@@ -24,7 +24,7 @@ with st.sidebar:
 
     When you plan a trip to abroad, hotel bookings, sight-seeing & shopping are the things you usually plan precisely but buying a Travel Insurance is seldom thought. Very few people plan for unforeseen events like flight delays, personal accidents, even a hospital stay in a strange unknown place.
     """
-path = "/home/appuser/app/"
+path = "/app/"
 #path = "E:/Major_Project/app/"
 with open(path + 'style.css') as f:
     st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True) 
